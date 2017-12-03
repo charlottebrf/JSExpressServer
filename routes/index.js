@@ -8,14 +8,7 @@ router.get('/', function(req, res, next) {
 
 // GET account name
 router.get('/account-name', function(req, res) {
-  res.json({"id":"my-funky-beat",
-      "label":null,
-      "bank_id":"uk-bank-x-a",
-      "views_available":[{
-          "id":"owner",
-          "short_name":"Owner",
-          "is_public":false
-      }]})
+  res.json({"bank_id":"nationwide"})
 });
 
 module.exports = router;
